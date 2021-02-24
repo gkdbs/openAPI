@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/jeju2"
+    android:weightSum="10"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_marginTop="200dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F29661"
+        android:onClick="clickBtn"
+        android:text="제주 공영주차장 보러가기"
+        android:textColor="#FFE08C"
+        android:textSize="20sp" />
+
+
+</LinearLayout>
